@@ -26,7 +26,7 @@ describe("index.js", () => {
   it("String: uses destructuring to declare the three traditional animal colors", () => {
     expect(blackAndWhite).to.exist
     expect(blackAndWhite).to.equal("cow")
-    expect(black).to.exist
+    expect(blackAndWhite).to.exist
     expect(black).to.equal("sheep")
     expect(pink).to.exist
     expect(pink).to.equal("pig")
